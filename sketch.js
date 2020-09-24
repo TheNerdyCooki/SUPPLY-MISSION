@@ -55,8 +55,8 @@ function draw() {
 }
 
 function keyPressed() {
-if(keyDown("DOWN_ARROW")){
-    packageSprite.Body.setStatic(Body, false);
+ if(keyDown("DOWN_ARROW")){
+    Matter.Body.setStatic(packageBody, false);
     
   }
 }
