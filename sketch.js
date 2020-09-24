@@ -55,7 +55,7 @@ function draw() {
 }
 
 function keyPressed() {
- if (keyCode === DOWN_ARROW) {
+if(keyDown("DOWN_ARROW")){
     packageSprite.Body.setStatic(Body, false);
     
   }
